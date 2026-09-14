@@ -96,7 +96,8 @@ Built an interactive Power BI dashboard including:
 
 ## Dashboard
 
-[Insert Dashboard Screenshot Here]
+<img width="1206" height="680" alt="image" src="https://github.com/user-attachments/assets/5736f0a3-486b-424c-9203-42e87bdea891" />
+
 
 ---
 
