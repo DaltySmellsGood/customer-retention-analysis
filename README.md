@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project analyzes customer retention and purchasing behavior using the UCI Online Retail dataset. The objective was to understand how well customers are retained after acquisition, identify revenue concentration among customers, and examine trends in customer growth and purchasing activity.
+This project analyzes customer retention and purchasing behavior using the UCI Online Retail dataset. The objective was to understand how well customers are retained after acquisition, identify revenue concentration among customers, and examine trends in customer growth and purchasing activity. The project combined R, SQL, and Power BI to transform raw transaction data into an interactive dashboard highlighting customer retention and revenue trends.
 
 ---
 
@@ -16,7 +16,10 @@ This project analyzes customer retention and purchasing behavior using the UCI O
 - [Step 3: SQL Analysis](#step-3-sql-analysis)
 - [Step 4: Dashboard Development](#step-4-dashboard-development)
 - [Key Results](#key-results)
+- [Business Impact](#business-impact)
 - [Dashboard](#dashboard)
+- [Repository Structure](#repository-structure)
+- [What I learned](#what-i-learned)
 
 ## Business Questions
 
@@ -35,6 +38,8 @@ This project analyzes customer retention and purchasing behavior using the UCI O
 **Time Period:** December 2010 – December 2011
 
 **Records After Cleaning:** 397,884 transactions
+
+The UCI Online Retail dataset contains transactional purchase records from a UK-based online retailer. Each record includes invoice information, product details, quantities purchased, customer identifiers, and country of origin.
 
 ---
 
@@ -70,7 +75,7 @@ This project analyzes customer retention and purchasing behavior using the UCI O
 <img width="543" height="322" alt="image" src="https://github.com/user-attachments/assets/c67c5f66-5587-40c8-afa5-67fe8ff10e84" />
 <img width="617" height="242" alt="image" src="https://github.com/user-attachments/assets/530930f6-1cfd-4988-8f96-992aabd00467" />
 
-This code depicts how customer acquisition cohorts were created in R to track retention behavior over time.
+This code depicts how customer acquisition cohorts were created in R to track retention behavior over time. Tracking retention rates over time formed the foundation of the retention heatmap analysis.
 
 ### Step 3: SQL Analysis
 
@@ -82,7 +87,7 @@ This code depicts how customer acquisition cohorts were created in R to track re
 
   <img width="545" height="292" alt="image" src="https://github.com/user-attachments/assets/f72cd194-e90c-425a-a903-a003308aeadd" />
 
-This SQL code was used to identify monthly revenue, customer, and AOV trends. The output of this code was exported to Power BI to create the final dashboard for the project.
+This SQL code was used to aggregate monthly revenue, customer, and AOV trends. The output of this code was exported to Power BI to create the final dashboard for the project.
 
 ### Step 4: Dashboard Development
 
@@ -121,13 +126,38 @@ Built an interactive Power BI dashboard including:
 
 ---
 
+## Business Impact
+
+The analysis revealed that customer retention dropped substantially after acquisition. Furthermore, monthly revenue and customers increased over the year despite the substantial drop in customer retention, highlighting the importance of customer re-engagement strategies. Revenue growth was primarily driven by increases in customer acquisition and transaction activity, while a relatively small group of high-value customers generated the majority of total revenue. These findings support that customer retention and spending behavior influence overall business performance.
+
+---
+
 ## Dashboard
 
 <img width="1206" height="680" alt="image" src="https://github.com/user-attachments/assets/5736f0a3-486b-424c-9203-42e87bdea891" />
-
 
 ---
 
 ## Repository Structure
 
-Brief explanation of folders and contents.
+```text
+customer-retention-analysis/
+│
+├── data/        # Raw and exported datasets used in analysis and Power BI
+├── r/           # Data cleaning and cohort analysis scripts
+├── sql/         # SQL analysis queries
+├── powerbi/     # Dashboard file
+└── README.md    # Project documentation
+```
+
+---
+
+## What I Learned
+
+- Developed my first cohort retention analysis in R.
+- Applied SQL to answer business-focused questions.
+- Built my first end-to-end Power BI dashboard.
+- Learned how customer acquisition, transaction volume, and average order value interact to drive revenue growth.
+- Used GitHub to create my first two repositories. One repository to create a data analyst portfolio and one for my customer retention analysis.
+
+---
