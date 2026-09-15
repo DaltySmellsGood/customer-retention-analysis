@@ -141,9 +141,9 @@ The analysis revealed that customer retention dropped substantially after acquis
 customer-retention-analysis/
 │
 ├── data/        # Raw and exported datasets used in analysis and Power BI
+├── power-bi/    # Dashboard file      
 ├── r/           # Data cleaning and cohort analysis scripts
-├── sql/         # SQL analysis queries
-├── powerbi/     # Dashboard file
+├── sql/         # SQL analysis queries 
 └── README.md    # Project documentation
 ```
 
