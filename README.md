@@ -55,6 +55,7 @@ The UCI Online Retail dataset contains transactional purchase records from a UK-
 
 ### Step 1: Data Cleaning (R)
 
+- Reduced the dataset from 541,909 transactions to 397,884 cleaned transactions
 - Removed transactions with missing Customer IDs
 - Removed returns and negative quantities
 - Removed transactions with zero prices
@@ -79,11 +80,7 @@ This code depicts how customer acquisition cohorts were created in R to track re
 
 ### Step 3: SQL Analysis
 
-- Monthly revenue trends
-- Customer growth trends
-- Average order value analysis
-- Revenue concentration analysis
-- Country analysis
+SQL was used to aggregate customer and transaction data into business metrics including monthly revenue, customer growth, transaction volume, average order value (AOV), customer revenue concentration, and country-level performance.
 
   <img width="545" height="292" alt="image" src="https://github.com/user-attachments/assets/f72cd194-e90c-425a-a903-a003308aeadd" />
 
@@ -128,7 +125,7 @@ Built an interactive Power BI dashboard including:
 
 ## Business Impact
 
-The analysis revealed that customer retention dropped substantially after acquisition. Furthermore, monthly revenue and customers increased over the year despite the substantial drop in customer retention, highlighting the importance of customer re-engagement strategies. Revenue growth was primarily driven by increases in customer acquisition and transaction activity, while a relatively small group of high-value customers generated the majority of total revenue. These findings support that customer retention and spending behavior influence overall business performance.
+The analysis revealed that customer retention dropped substantially after acquisition. Furthermore, monthly revenue and customers increased over the year despite the substantial drop in customer retention, highlighting the importance of customer re-engagement strategies. Revenue growth was primarily driven by increases in customer acquisition and transaction activity, while a relatively small group of high-value customers generated the majority of total revenue. These findings demonstrate how customer retention and spending behavior influence overall business performance.
 
 ---
 
@@ -158,6 +155,6 @@ customer-retention-analysis/
 - Applied SQL to answer business-focused questions.
 - Built my first end-to-end Power BI dashboard.
 - Learned how customer acquisition, transaction volume, and average order value interact to drive revenue growth.
-- Used GitHub to create my first two repositories. One repository to create a data analyst portfolio and one for my customer retention analysis.
+- Learned how to organize and document analytical projects using GitHub repositories.
 
 ---
