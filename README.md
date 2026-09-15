@@ -6,6 +6,13 @@ This project analyzes customer retention and purchasing behavior using the UCI O
 
 ---
 
+## Table of Contents
+
+- [Business Questions](#business-questions)
+- [Dataset](#dataset)
+- [Tools Used](#tools-used)
+- 
+
 ## Business Questions
 
 1. How well are customers retained after their first purchase?
@@ -36,21 +43,31 @@ This project analyzes customer retention and purchasing behavior using the UCI O
 
 ## Methodology
 
-### Data Cleaning
+### Step 1: Data Cleaning (R)
 
 - Removed transactions with missing Customer IDs
 - Removed returns and negative quantities
 - Removed transactions with zero prices
 - Created transaction-level revenue measures
 
-### Cohort Analysis
+<img width="381" height="141" alt="image" src="https://github.com/user-attachments/assets/e9ce32f9-a50d-40e1-8a32-ff86a21cc140" />
+<img width="416" height="100" alt="image" src="https://github.com/user-attachments/assets/75a15eaf-6be2-471a-8437-fb929f45293a" />
+<img width="1445" height="501" alt="image" src="https://github.com/user-attachments/assets/65af4028-be96-45b0-8cf3-a418f10416bd" />
+
+
+### Step 2: Cohort Analysis (R)
 
 - Assigned customers to acquisition cohorts
 - Calculated monthly retention rates
 - Created cohort retention heatmaps
 - Calculated average retention trends
 
-### SQL Analysis
+<img width="543" height="322" alt="image" src="https://github.com/user-attachments/assets/c67c5f66-5587-40c8-afa5-67fe8ff10e84" />
+<img width="617" height="242" alt="image" src="https://github.com/user-attachments/assets/530930f6-1cfd-4988-8f96-992aabd00467" />
+
+This code depicts how customer acquisition cohorts were created in R to track retention behavior over time.
+
+### Step 3: SQL Analysis
 
 - Monthly revenue trends
 - Customer growth trends
@@ -58,7 +75,11 @@ This project analyzes customer retention and purchasing behavior using the UCI O
 - Revenue concentration analysis
 - Country analysis
 
-### Dashboard Development
+  <img width="545" height="292" alt="image" src="https://github.com/user-attachments/assets/f72cd194-e90c-425a-a903-a003308aeadd" />
+
+This SQL code was used to identify monthly revenue, customer, and AOV trends. The output of this code was exported to Power BI to create the final dashboard for the project.
+
+### Step 4: Dashboard Development
 
 Built an interactive Power BI dashboard including:
 
@@ -86,6 +107,7 @@ Built an interactive Power BI dashboard including:
 ### Revenue Concentration
 
 - The highest-spending customer quartile generated approximately 80% of total revenue.
+- 95 high-value customers generated ~£2.8 million in revenue.
 
 ### Geographic Insights
 
