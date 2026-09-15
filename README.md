@@ -12,7 +12,11 @@ This project analyzes customer retention and purchasing behavior using the UCI O
 - [Dataset](#dataset)
 - [Tools Used](#tools-used)
 - [Step 1: Data Cleaning (R)](#step-1-data-cleaning-r)
-- 
+- [Step 2: Cohort Analysis (R)](#step-2-cohort-analysis-r)
+- [Step 3: SQL Analysis](#step-3-sql-analysis)
+- [Step 4: Dashboard Development](#step-4-dashboard-development)
+- [Key Results](#key-results)
+- [Dashboard](#dashboard)
 
 ## Business Questions
 
