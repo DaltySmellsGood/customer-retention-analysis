@@ -1,10 +1,8 @@
-# Customer Retention Analysis
+# 🔄 Customer Retention Analysis
 
 ## Project Overview
 
 This project analyzes customer retention and purchasing behavior using the UCI Online Retail dataset. The objective was to understand how well customers are retained after acquisition, identify revenue concentration among customers, and examine trends in customer growth and purchasing activity. The project combined R, SQL, and Power BI to transform raw transaction data into an interactive dashboard highlighting customer retention and revenue trends.
-
----
 
 ## Table of Contents
 
@@ -20,6 +18,8 @@ This project analyzes customer retention and purchasing behavior using the UCI O
 - [Dashboard](#dashboard)
 - [Repository Structure](#repository-structure)
 - [What I learned](#what-i-learned)
+
+---
 
 ## Business Questions
 
